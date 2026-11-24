@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jahanvi Kaka | Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0d0d18;
+    color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    border-bottom: 1px solid #28283b;
+    position: sticky;
+    top: 0;
+    background: #0d0d18;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo span, h1 span {
+    color: #a879ff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #a879ff;
+}
+
+.hero {
+    padding: 100px 8%;
+}
+
+.hero small {
+    color: #a879ff;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 55px;
+    margin: 20px 0;
+}
+
+.hero h2 {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #c4c4d4;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: #8954e9;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background: #a879ff;
+}
+
+section:not(.hero) {
+    margin: 25px 8%;
+    padding: 35px;
+    background: #171728;
+    border: 1px solid #292941;
+    border-radius: 15px;
+}
+
+h3 {
+    color: #a879ff;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+section:not(.hero) h2 {
+    margin-bottom: 20px;
+}
+
+section:not(.hero) p {
+    line-height: 1.8;
+    color: #c4c4d4;
+}
+
+.education-item {
+    margin-bottom: 25px;
+}
+
+.education-item:last-child {
+    margin-bottom: 0;
+}
+
+.education-item h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.skills, .hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills span, .hobbies span {
+    background: #24243a;
+    color: #c9aaff;
+    border: 1px solid #393953;
+    padding: 12px 18px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #a879ff;
+}
+
+@media(max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav a {
+        margin: 8px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    .hero {
+        padding: 70px 6%;
+    }
+
+    section:not(.hero) {
+        margin: 20px 5%;
+        padding: 25px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Jahanvi <span>Kaka</span></div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#hobbies">Hobbies</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <small>WELCOME TO MY PORTFOLIO</small>
+
+    <h1>Hello, I'm <span>Jahanvi Kaka.</span></h1>
+
+    <h2>Computer Science Engineering Student</h2>
+
+    <p>
+        A curious mind interested in coding, technology,
+        creativity and designing meaningful digital experiences.
+    </p>
+
+    <a href="#about" class="btn">Explore My Portfolio ↓</a>
+</section>
+
+<section id="about">
+    <h3>ABOUT ME</h3>
+    <h2>A Little About Me</h2>
+
+    <p>
+        I am a Computer Science Engineering student with a strong
+        interest in coding, technology and creative ideas.
+        I enjoy exploring new technologies, learning programming
+        concepts and developing my technical abilities.
+
+        I also have a creative mindset and a passion for art,
+        dance and design. My future goal is to build a career
+        in design, combining creativity, technology and innovation
+        to create meaningful digital experiences.
+    </p>
+
+    <p style="margin-top:15px;">
+        📍 Ahmedabad, Gujarat, India
+    </p>
+</section>
+
+<section id="education">
+    <h3>EDUCATION</h3>
+    <h2>My Academic Journey</h2>
+
+    <div class="education-item">
+        <h4>B.Tech in Computer Science Engineering</h4>
+        <p>JG University · 2nd Year</p>
+    </div>
+
+    <div class="education-item">
+        <h4>Diploma in Information Technology</h4>
+        <p>LJ University</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h3>MY TOOLKIT</h3>
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <span>Coding</span>
+        <span>Web Development</span>
+        <span>Problem Solving</span>
+        <span>Creative Thinking</span>
+        <span>Communication</span>
+        <span>Teamwork</span>
+        <span>Time Management</span>
+        <span>Adaptability</span>
+        <span>Quick Learning</span>
+    </div>
+</section>
+
+<section id="hobbies">
+    <h3>MY INTERESTS</h3>
+    <h2>Hobbies & Creativity</h2>
+
+    <div class="hobbies">
+        <span>Dance</span>
+        <span>Drawing</span>
+        <span>Art & Craft</span>
+        <span>Creative Designing</span>
+        <span>Exploring Technology</span>
+        <span>Learning New Skills</span>
+    </div>
+</section>
+
+<section id="contact">
+    <h3>CONTACT</h3>
+    <h2>Let's Connect</h2>
+
+    <p>
+        Interested in creativity, technology and new ideas.
+    </p>
+</section>
+
+<footer>
+    Creativity · Curiosity · Learning
+    <p style="margin-top:10px;">
+        © <span id="year"></span> Jahanvi Kaka
+    </p>
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+    new Date().getFullYear();
+</script>
+
+</body>
+</html>
